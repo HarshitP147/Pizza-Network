@@ -1,5 +1,7 @@
 import socket
 
+from helper_func import send_response
+
 # Listens for negotiation requests and responses on negotiation port
 # Negotiates based on inventory
 # Sends response to requester
@@ -42,5 +44,3 @@ def negotiating(negotiation_port):
 
         # Assuming the negotiation port is known and fixed for simplicity
         send_negotiation_request(target_ip, negotiation_port, ingredient, quantity, quality)
-
-

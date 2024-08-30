@@ -19,5 +19,3 @@ class Supplier:
             return "ACCEPTED"
         print(f"\nNEGOTIATION REQUEST REJECTED")
         return "REJECTED"
-
-

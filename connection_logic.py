@@ -2,7 +2,6 @@ import time
 import socket
 
 def check_connection(p2p_port,suppliers_list):
-    retry_connection = False
 
     while True:
         for supplier in suppliers_list:

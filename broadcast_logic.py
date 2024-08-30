@@ -1,7 +1,7 @@
 import socket
 import time
 
-from negotation_logic import send_response
+from helper_func import send_response
 from supplier_class import Supplier
 
 # Periodically broadcasts "PIZZA" over broadcast port (UDP) to specific broadcast address
